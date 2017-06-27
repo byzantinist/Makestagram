@@ -47,7 +47,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.41568627450980389" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="265" id="Cqu-GN-rqQ"/>
                                     <constraint firstItem="mDu-RG-CyB" firstAttribute="centerY" secondItem="BKY-Cc-V87" secondAttribute="centerY" id="FkD-th-7hU"/>
                                     <constraint firstItem="mDu-RG-CyB" firstAttribute="centerX" secondItem="BKY-Cc-V87" secondAttribute="centerX" id="tvz-9Z-hui"/>
                                 </constraints>
