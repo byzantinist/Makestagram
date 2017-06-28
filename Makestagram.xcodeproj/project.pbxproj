@@ -18,6 +18,7 @@
 		C7E572B91F02A3110016AADF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E572B81F02A3110016AADF /* LoginViewController.swift */; };
 		C7E572BC1F02C88B0016AADF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E572BB1F02C88B0016AADF /* User.swift */; };
 		C7E572BE1F02DC8A0016AADF /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E572BD1F02DC8A0016AADF /* CreateUsernameViewController.swift */; };
+		C7E572C11F02FBD50016AADF /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E572C01F02FBD50016AADF /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C7E572B81F02A3110016AADF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		C7E572BB1F02C88B0016AADF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		C7E572BD1F02DC8A0016AADF /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		C7E572C01F02FBD50016AADF /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				C743EF311F01597B00578168 /* AppDelegate.swift */,
+				C7E572BF1F02FBB50016AADF /* Services */,
 				C7BA4EBE1F017094005B0676 /* View Controllers */,
 				C7E572BA1F02C84E0016AADF /* Models */,
 				C7BA4EBF1F0170A1005B0676 /* Storyboards */,
@@ -133,6 +136,14 @@
 				C7E572BB1F02C88B0016AADF /* User.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C7E572BF1F02FBB50016AADF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C7E572C01F02FBD50016AADF /* UserService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			files = (
 				C7E572BC1F02C88B0016AADF /* User.swift in Sources */,
 				C7E572B91F02A3110016AADF /* LoginViewController.swift in Sources */,
+				C7E572C11F02FBD50016AADF /* UserService.swift in Sources */,
 				C7BA4EB51F016C74005B0676 /* ViewController.swift in Sources */,
 				C7E572BE1F02DC8A0016AADF /* CreateUsernameViewController.swift in Sources */,
 				C743EF321F01597B00578168 /* AppDelegate.swift in Sources */,
