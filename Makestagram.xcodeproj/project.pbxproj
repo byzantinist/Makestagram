@@ -19,6 +19,9 @@
 		C7E572BE1F02DC8A0016AADF /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E572BD1F02DC8A0016AADF /* CreateUsernameViewController.swift */; };
 		C7E774491F06AC2500BA7694 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E774481F06AC2500BA7694 /* StorageService.swift */; };
 		C7E7744B1F06ACD500BA7694 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E7744A1F06ACD500BA7694 /* PostService.swift */; };
+		C7E7744D1F06B10D00BA7694 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E7744C1F06B10D00BA7694 /* Post.swift */; };
+		C7E774511F06B4F900BA7694 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E774501F06B4F900BA7694 /* UIImage+Size.swift */; };
+		C7E774531F06B65500BA7694 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E774521F06B65500BA7694 /* StorageReference+Post.swift */; };
 		C7E89DAB1F04070C0013DE9E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E89DAA1F04070C0013DE9E /* constants.swift */; };
 		C7E89DAE1F040C840013DE9E /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E89DAD1F040C840013DE9E /* Storyboard+Utility.swift */; };
 		C7F1ABF01F057A3C00AB6D1F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F1ABEF1F057A3C00AB6D1F /* MainTabBarController.swift */; };
@@ -45,6 +48,9 @@
 		C7E572BD1F02DC8A0016AADF /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		C7E774481F06AC2500BA7694 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
 		C7E7744A1F06ACD500BA7694 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostService.swift; path = Services/PostService.swift; sourceTree = "<group>"; };
+		C7E7744C1F06B10D00BA7694 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
+		C7E774501F06B4F900BA7694 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
+		C7E774521F06B65500BA7694 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
 		C7E89DAA1F04070C0013DE9E /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = constants.swift; path = Supporting/constants.swift; sourceTree = "<group>"; };
 		C7E89DAD1F040C840013DE9E /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		C7F1ABEF1F057A3C00AB6D1F /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = Controllers/MainTabBarController.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				C7E572BB1F02C88B0016AADF /* User.swift */,
+				C7E7744C1F06B10D00BA7694 /* Post.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -171,6 +178,8 @@
 			isa = PBXGroup;
 			children = (
 				C7E89DAD1F040C840013DE9E /* Storyboard+Utility.swift */,
+				C7E774501F06B4F900BA7694 /* UIImage+Size.swift */,
+				C7E774521F06B65500BA7694 /* StorageReference+Post.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -314,10 +323,13 @@
 				C7E572B91F02A3110016AADF /* LoginViewController.swift in Sources */,
 				C7F1ABF01F057A3C00AB6D1F /* MainTabBarController.swift in Sources */,
 				C7E89DAE1F040C840013DE9E /* Storyboard+Utility.swift in Sources */,
+				C7E7744D1F06B10D00BA7694 /* Post.swift in Sources */,
+				C7E774511F06B4F900BA7694 /* UIImage+Size.swift in Sources */,
 				C7F1ABF61F057A8600AB6D1F /* FindFriendsViewController.swift in Sources */,
 				C7F1ABFB1F05882F00AB6D1F /* MGPhotoHelper.swift in Sources */,
 				C7F1ABF41F057A7B00AB6D1F /* HomeViewController.swift in Sources */,
 				C7F1ABF81F057AAC00AB6D1F /* UserService.swift in Sources */,
+				C7E774531F06B65500BA7694 /* StorageReference+Post.swift in Sources */,
 				C7E89DAB1F04070C0013DE9E /* constants.swift in Sources */,
 				C7E7744B1F06ACD500BA7694 /* PostService.swift in Sources */,
 				C7E572BE1F02DC8A0016AADF /* CreateUsernameViewController.swift in Sources */,
