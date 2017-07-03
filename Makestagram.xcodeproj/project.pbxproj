@@ -22,6 +22,7 @@
 		C7E7744D1F06B10D00BA7694 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E7744C1F06B10D00BA7694 /* Post.swift */; };
 		C7E774511F06B4F900BA7694 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E774501F06B4F900BA7694 /* UIImage+Size.swift */; };
 		C7E774531F06B65500BA7694 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E774521F06B65500BA7694 /* StorageReference+Post.swift */; };
+		C7E774551F06CF4800BA7694 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E774541F06CF4800BA7694 /* Home.storyboard */; };
 		C7E89DAB1F04070C0013DE9E /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E89DAA1F04070C0013DE9E /* constants.swift */; };
 		C7E89DAE1F040C840013DE9E /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E89DAD1F040C840013DE9E /* Storyboard+Utility.swift */; };
 		C7F1ABF01F057A3C00AB6D1F /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F1ABEF1F057A3C00AB6D1F /* MainTabBarController.swift */; };
@@ -51,6 +52,7 @@
 		C7E7744C1F06B10D00BA7694 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
 		C7E774501F06B4F900BA7694 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
 		C7E774521F06B65500BA7694 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
+		C7E774541F06CF4800BA7694 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		C7E89DAA1F04070C0013DE9E /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = constants.swift; path = Supporting/constants.swift; sourceTree = "<group>"; };
 		C7E89DAD1F040C840013DE9E /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		C7F1ABEF1F057A3C00AB6D1F /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = Controllers/MainTabBarController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				C7BA4EB61F016C8B005B0676 /* Main.storyboard */,
+				C7E774541F06CF4800BA7694 /* Home.storyboard */,
 				C7D3CCEF1F01ABC200949240 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -258,6 +261,7 @@
 				C7BA4EB91F016CB6005B0676 /* LaunchScreen.storyboard in Resources */,
 				C743EF391F01597B00578168 /* Assets.xcassets in Resources */,
 				C7BA4EBD1F016D4C005B0676 /* GoogleService-Info.plist in Resources */,
+				C7E774551F06CF4800BA7694 /* Home.storyboard in Resources */,
 				C7D3CCF01F01ABC200949240 /* Login.storyboard in Resources */,
 				C7BA4EB71F016C8B005B0676 /* Main.storyboard in Resources */,
 			);
